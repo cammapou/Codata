@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ListeController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var holderView: UIView!
+    @IBOutlet weak var naleTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func addList(_ sender: UIButton) {
+        
+    }
 }
 
